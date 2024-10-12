@@ -1,10 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 20px;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
-    background-color: #f4f4f4;
+    background-color: lightgray;
 }
 
 h1 {
@@ -12,34 +9,24 @@ h1 {
 }
 
 form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 label {
-    display: block;
     margin-bottom: 5px;
 }
 
 input, textarea {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #5cb85c;
+    padding: 5px 10px;
+    background-color: green;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #4cae4c;
 }
